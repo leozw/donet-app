@@ -1,0 +1,6 @@
+@donet_app_HostAddress = http://localhost:5195
+
+GET {{donet_app_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

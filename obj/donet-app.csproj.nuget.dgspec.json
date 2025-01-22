@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/buteco/estudos/donet-app/donet-app.csproj": {}
+  },
+  "projects": {
+    "/home/buteco/estudos/donet-app/donet-app.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/buteco/estudos/donet-app/donet-app.csproj",
+        "projectName": "donet-app",
+        "projectPath": "/home/buteco/estudos/donet-app/donet-app.csproj",
+        "packagesPath": "/home/buteco/.nuget/packages/",
+        "outputPath": "/home/buteco/estudos/donet-app/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/buteco/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "OpenTelemetry": {
+              "target": "Package",
+              "version": "[1.10.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

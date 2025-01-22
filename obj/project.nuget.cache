@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "vwmAqeohS4MfTGQ5sNh5gv34jHhwqK1xcERwKLwhUdYlH8iQ1N3k1SSSTX0nr/ShnSRm+lRGEjZevj7L3sgxWw==",
+  "success": true,
+  "projectFilePath": "/home/buteco/estudos/donet-app/donet-app.csproj",
+  "expectedPackageFiles": [
+    "/home/buteco/.nuget/packages/microsoft.aspnetcore.openapi/8.0.11/microsoft.aspnetcore.openapi.8.0.11.nupkg.sha512",
+    "/home/buteco/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/buteco/.nuget/packages/microsoft.extensions.configuration/9.0.0/microsoft.extensions.configuration.9.0.0.nupkg.sha512",
+    "/home/buteco/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.0/microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
+    "/home/buteco/.nuget/packages/microsoft.extensions.configuration.binder/9.0.0/microsoft.extensions.configuration.binder.9.0.0.nupkg.sha512",
+    "/home/buteco/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.0/microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512",
+    "/home/buteco/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.0/microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
+    "/home/buteco/.nuget/packages/microsoft.extensions.diagnostics.abstractions/9.0.0/microsoft.extensions.diagnostics.abstractions.9.0.0.nupkg.sha512",
+    "/home/buteco/.nuget/packages/microsoft.extensions.logging/9.0.0/microsoft.extensions.logging.9.0.0.nupkg.sha512",
+    "/home/buteco/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.0/microsoft.extensions.logging.abstractions.9.0.0.nupkg.sha512",
+    "/home/buteco/.nuget/packages/microsoft.extensions.logging.configuration/9.0.0/microsoft.extensions.logging.configuration.9.0.0.nupkg.sha512",
+    "/home/buteco/.nuget/packages/microsoft.extensions.options/9.0.0/microsoft.extensions.options.9.0.0.nupkg.sha512",
+    "/home/buteco/.nuget/packages/microsoft.extensions.options.configurationextensions/9.0.0/microsoft.extensions.options.configurationextensions.9.0.0.nupkg.sha512",
+    "/home/buteco/.nuget/packages/microsoft.extensions.primitives/9.0.0/microsoft.extensions.primitives.9.0.0.nupkg.sha512",
+    "/home/buteco/.nuget/packages/microsoft.openapi/1.6.14/microsoft.openapi.1.6.14.nupkg.sha512",
+    "/home/buteco/.nuget/packages/opentelemetry/1.10.0/opentelemetry.1.10.0.nupkg.sha512",
+    "/home/buteco/.nuget/packages/opentelemetry.api/1.10.0/opentelemetry.api.1.10.0.nupkg.sha512",
+    "/home/buteco/.nuget/packages/opentelemetry.api.providerbuilderextensions/1.10.0/opentelemetry.api.providerbuilderextensions.1.10.0.nupkg.sha512",
+    "/home/buteco/.nuget/packages/swashbuckle.aspnetcore/6.6.2/swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
+    "/home/buteco/.nuget/packages/swashbuckle.aspnetcore.swagger/6.6.2/swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
+    "/home/buteco/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.6.2/swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
+    "/home/buteco/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.6.2/swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
+    "/home/buteco/.nuget/packages/system.diagnostics.diagnosticsource/9.0.0/system.diagnostics.diagnosticsource.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

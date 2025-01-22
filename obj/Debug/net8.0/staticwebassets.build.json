@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VYcdOrL7jc1ey6V+ZUbqa+cGhLkoekbOsdYXfNLYm/E=",
+  "Source": "donet-app",
+  "BasePath": "_content/donet-app",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

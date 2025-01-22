@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dotnet-app
+  labels:
+    app: dotnet-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dotnet-app
+  template:
+    metadata:
+      labels:
+        app: dotnet-app
+    spec:
+      containers:
+        - name: dotnet-app
+          image: leonardozwirtes/dotnet-app:2
+          ports:
+            - containerPort: 8080
+          env:
+            - name: OTEL_SERVICE_NAME
+              value: "dotnet-app"
+            - name: OTEL_RESOURCE_ATTRIBUTES
+              value: "service.name=dotnet-app,environment=prd"
+            - name: OTEL_EXPORTER_OTLP_ENDPOINT
+              value: http://opentelemetrycollector.monitoring.svc.cluster.local:4318
