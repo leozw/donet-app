@@ -7,8 +7,6 @@ Este guia descreve como configurar as variáveis de ambiente necessárias para a
 Certifique-se de que o arquivo `appsettings.json` inclua as chaves do Parameter Store que contêm os valores necessários para a instrumentação:
 
 ```json
-json
-CopiarEditar
 {
   "AWS": {
     "Region": "us-east-1"
@@ -33,8 +31,6 @@ CopiarEditar
 Crie os seguintes parâmetros no AWS Systems Manager Parameter Store para habilitar a instrumentação:
 
 ```bash
-bash
-CopiarEditar
 aws ssm put-parameter --name "/dotnet-app/OTEL_SERVICE_NAME" --value "my-app" --type "String"
 aws ssm put-parameter --name "/dotnet-app/OTEL_RESOURCE_ATTRIBUTES" --value "service.name=my-app,environment=production" --type "String"
 
@@ -71,8 +67,6 @@ Nesta etapa, você aprenderá como realizar a instrumentação automática das a
 Execute os comandos abaixo no PowerShell:
 
 ```powershell
-powershell
-CopiarEditar
 # Caminho padrão onde o script será salvo
 $scriptPath = "C:\Users\Administrator\instrumentation.ps1"
 
@@ -95,8 +89,6 @@ O script executa as seguintes ações automaticamente:
 ### **3. Código do Script**
 
 ```powershell
-powershell
-CopiarEditar
 # Script de Instrumentação OpenTelemetry
 $moduleUrl = "https://github.com/elven-observability/opentelemetry-dotnet-instrumentation/releases/download/v1.0.0/OpenTelemetry.DotNet.Auto.psm1"
 $modulePath = Join-Path $env:TEMP "OpenTelemetry.DotNet.Auto.psm1"
@@ -125,7 +117,6 @@ Write-Host "OpenTelemetry instalado e configurado com sucesso!"
 Após a execução do script, você verá a mensagem:
 
 ```
-CopiarEditar
 OpenTelemetry instalado e configurado com sucesso!
 
 ```
