@@ -1,0 +1,8 @@
+/Users/leonardozwirtes/Documents/Projects/donet-app/src/obj/Release/net8.0/donet-app.csproj.AssemblyReference.cache
+/Users/leonardozwirtes/Documents/Projects/donet-app/src/obj/Release/net8.0/donet-app.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leonardozwirtes/Documents/Projects/donet-app/src/obj/Release/net8.0/donet-app.AssemblyInfoInputs.cache
+/Users/leonardozwirtes/Documents/Projects/donet-app/src/obj/Release/net8.0/donet-app.AssemblyInfo.cs
+/Users/leonardozwirtes/Documents/Projects/donet-app/src/obj/Release/net8.0/donet-app.csproj.CoreCompileInputs.cache
+/Users/leonardozwirtes/Documents/Projects/donet-app/src/obj/Release/net8.0/donet-app.MvcApplicationPartsAssemblyInfo.cs
+/Users/leonardozwirtes/Documents/Projects/donet-app/src/obj/Release/net8.0/donet-app.MvcApplicationPartsAssemblyInfo.cache
+/Users/leonardozwirtes/Documents/Projects/donet-app/src/obj/Release/net8.0/donet-app.sourcelink.json
