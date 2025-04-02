@@ -8,13 +8,15 @@ $installDir = "C:\otel-dotnet-auto"
 Install-OpenTelemetryCore -InstallDir $installDir
 
 $serviceName = "dotnet-app"
-$otlpEndpoint = "http://otel.internal.bomconsorcio.com:4318"
+$otlpEndpoint = "http://20.119.76.236:4318"
 $resourceAttributes = "service.name=dotnet-app,environment=production"
 
-Register-OpenTelemetryForCurrentSession -OTelServiceName $serviceName
+Register-OpenTelemetryForIIS
 
 [Environment]::SetEnvironmentVariable("OTEL_EXPORTER_OTLP_ENDPOINT", $otlpEndpoint, [System.EnvironmentVariableTarget]::Machine)
 [Environment]::SetEnvironmentVariable("OTEL_SERVICE_NAME", $serviceName, [System.EnvironmentVariableTarget]::Machine)
 [Environment]::SetEnvironmentVariable("OTEL_RESOURCE_ATTRIBUTES", $resourceAttributes, [System.EnvironmentVariableTarget]::Machine)
 
-Write-Host "✅ OpenTelemetry instalado e configurado com sucesso!"
+Write-Host "✅ OpenTelemetry instalado e configurado com sucesso para IIS!"
+
+iisreset
